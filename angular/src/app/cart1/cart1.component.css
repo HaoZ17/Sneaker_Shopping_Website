@@ -1,0 +1,330 @@
+@charset "UTF-8";
+html, body {
+  color: #fff;
+  font-size: 11px;
+  font-family: 'Tahoma';
+  background-size: 100%; }
+
+button {
+  width: 100px;
+  margin-left: 20px; }
+
+span {
+  display: inline;
+  /* width: 150px; */ }
+
+.clear {
+  clear: both;
+  height: 200px; }
+
+.item {
+  margin: 10px 10px 0px 10px; }
+
+p {
+  margin: 10px 0 0 0;
+  /* width: 80% */ }
+
+.date {
+  color: #ffd502;
+  text-decoration: overline;
+  font-size: 10px;
+  padding: 10px 0 20px 0; }
+
+#content_footer p {
+  margin: 10px 30px 10px 30px;
+  padding-top: 20px;
+  font-size: 10px;
+  text-align: left; }
+
+.login_box p {
+  margin: 0px 10px 20px 25px;
+  font-size: 9px;
+  color: #fff;
+  text-transform: uppercase; }
+
+.content_box_photo h3 {
+  margin: 40px 0px 10px 0px; }
+
+#content_footer p {
+  margin: 10px 0px 10px 60px !important;
+  margin: 10px 0px 10px 85px;
+  font-size: 10px;
+  text-align: justify; }
+
+.red {
+  color: red; }
+
+.yellow {
+  color: #ffd502;
+  font-weight: bold; }
+
+th, td {
+  text-align: center; }
+
+h1 {
+  font-family: "Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+    /* margin: 0px 0px 0px 0px !important;
+margin: 10px 0px 0px 0px; */
+  color: #fff; }
+
+h2 {
+  font-family: "Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0px 50px 10px 30px !important;
+  margin: 0px 30px 10px 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #072450;
+  font-weight: normal; }
+
+h3 {
+  margin: 0px 0px 10px 0px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff; }
+
+a {
+  text-decoration: none;
+  color: #ffd502; }
+
+/*----- MENU ----- */
+#nav_list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  overflow: hidden; }
+  #nav_list li {
+    width: 18%;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: -7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center; }
+
+.li_nav_body a {
+  height: 20px;
+  line-height: 20px; }
+
+.li_nav_footer a {
+  display: block;
+  width: 170px;
+  height: 21px;
+  background-position: 0 0px;
+  padding-left: 25px;
+  line-height: 21px; }
+
+.li_nav_body a:hover, .li_nav_footer a:hover {
+  background-position: 0 -20px;
+  color: #016001; }
+
+.li_active a:active {
+  background-position: 0 -40px;
+  color: #fff; }
+
+/*----- LAYOUT ----- */
+#container {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  position: relative; }
+
+#menu_header {
+  width: 100%;
+  height: 150px;
+  font-size: 13px; }
+
+#head_left {
+  width: 47%;
+  float: left;
+  text-align: left;
+  margin: 30px 0 0 30px; }
+
+#head_right {
+  width: 47%;
+  float: left;
+  text-align: right;
+  margin: 30px 0 0 10px; }
+
+#menu_left {
+  width: 250px;
+  min-height: 100%;
+  margin: 0 0 0 50px;
+  float: left; }
+
+.login_box {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 20px 0 0 0; }
+
+#head {
+  width: 100%;
+  height: 200px;
+  float: left;
+  text-align: center; }
+
+#content {
+  width: 100%;
+  text-align: justify;
+  float: left;
+  margin: 0 0 0 20px; }
+
+.content_box_photo {
+  width: 100%;
+  margin: 30px 0 0 0px;
+  float: left;
+  text-align: center; }
+
+#content_footer {
+  clear: both;
+  margin-bottom: -70px;
+  height: 50px; }
+
+/* 这是新的 */
+.shoppingcart {
+  color: #000000;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 7%;
+  margin-bottom: 50px;
+  background-color: #fff; }
+  .shoppingcart thead {
+    height: 50px;
+    line-height: 50px; }
+  .shoppingcart tbody {
+    height: 20px;
+    line-height: 20px; }
+
+/* 这是新的 */
+/* 这是新的 */
+.masonry {
+  column-count: 3;
+  column-gap: 0;
+  /* text-align: center; */ }
+
+.item {
+  break-inside: avoid;
+  box-sizing: border-box;
+  padding: 10px;
+  /* background-color: #fff; */
+  margin-left: 30px; }
+
+.item_content {
+  width: 80%;
+  text-align: left;
+  margin-left: 30px; }
+
+/*------FOOT------- */
+#foot {
+  width: 100%;
+  float: left;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0; }
+
+/*----- IMAGES ----- */
+a img {
+  border: none; }
+
+img.left, img.center, img.right {
+  padding: 4px;
+  border: 1px solid #a0a0a0; }
+img.left {
+  float: left;
+  margin: 0px 12px 5px 0px;
+  background: #fff; }
+img.right {
+  float: right;
+  margin: 0px 30px 5px 0px; }
+
+/*----- FORM ----- */
+input {
+  border: solid 1px #cccccc;
+  font: normal 10px tahoma;
+  width: 250px;
+  color: #707070;
+  margin: 0px 0px 0px 0px;
+  text-align: center; }
+
+/* 这是新的 */
+#tablerow input {
+  border: 0px;
+  font: normal 10px tahoma;
+  width: 90%;
+  color: #707070;
+  margin: 0 0px 20px 20px; }
+
+td.addbtn {
+  text-align: left; }
+
+#cartitem input {
+  border: none;
+  font: normal 10px tahoma;
+  width: 200px;
+  background-color: black;
+  color: white;
+  margin: 10px 0px 0px 20px; }
+  #cartitem input.addbtn {
+    width: 100px;
+    color: #ffd502;
+    font-weight: bold; }
+
+textarea.sidebar {
+  border: solid 1px #cccccc;
+  font: normal 10px tahoma;
+  width: 115px;
+  height: 80px;
+  color: #707070;
+  margin: 5px 0px 5px 25px; }
+
+input.sidebar {
+  width: 100%;
+  height: 15px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #ffd502;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: -7px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0px;
+  margin: 0px 0px 0px 0px; }
+input.button_sidebar {
+  border: solid 1px #cccccc;
+  font: normal 10px tahoma;
+  width: 119px;
+  color: #707070;
+  margin: 0px 0px 5px 25px; }
+input.button_content {
+  border: solid 1px #cccccc;
+  font: normal 10px tahoma;
+  width: 119px;
+  color: #707070;
+  margin: 5px 0px 5px 0px; }
+
+/*----- Hoverbox Code - get code found at http://host.sonspring.com/hoverbox/ ------*/
+#item_content img {
+  cursor: pointer;
+  background: #fff;
+  /* color: inherit; */
+  /* vertical-align: top; */
+  width: 200px;
+  height: 150px;
+  /* margin: 2px; */
+  /* padding: 2px; */
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 0.6s; }
+  #item_content img:hover {
+    transform: scale(2); }

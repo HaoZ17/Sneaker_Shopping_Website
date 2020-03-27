@@ -1,0 +1,44 @@
+2019-04-16 12:36:40.2302||TRACE|Sneakerx_api.Models.UserManager|Sample trace message 
+2019-04-16 12:36:40.2758||DEBUG|Sneakerx_api.Models.UserManager|Sample debug message 
+2019-04-16 12:36:40.2779||INFO|Sneakerx_api.Models.UserManager|Sample informational message 
+2019-04-16 12:36:40.2781||WARN|Sneakerx_api.Models.UserManager|Sample warning message 
+2019-04-16 12:36:40.2781||ERROR|Sneakerx_api.Models.UserManager|Sample error message 
+2019-04-16 12:36:40.2781||FATAL|Sneakerx_api.Models.UserManager|Sample fatal message 
+2019-04-16 12:36:40.3599||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:36:49.0740||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:43:10.4608||TRACE|Sneakerx_api.Models.UserManager|Sample trace message 
+2019-04-16 12:43:10.5090||DEBUG|Sneakerx_api.Models.UserManager|Sample debug message 
+2019-04-16 12:43:10.5098||INFO|Sneakerx_api.Models.UserManager|Sample informational message 
+2019-04-16 12:43:10.5098||WARN|Sneakerx_api.Models.UserManager|Sample warning message 
+2019-04-16 12:43:10.5098||ERROR|Sneakerx_api.Models.UserManager|Sample error message 
+2019-04-16 12:43:10.5106||FATAL|Sneakerx_api.Models.UserManager|Sample fatal message 
+2019-04-16 12:43:10.5904||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:43:10.5904||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:43:22.0335||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:44:43.4536||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:46:59.8853||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:47:40.7023||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:49:31.4621||TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* 
+2019-04-16 12:51:50.5310||TRACE|Sneakerx_api.Controllers.ServerController|************* User: wrong log in unsuccessfully with a wrong password! ************* 
+2019-04-16 12:51:58.7894||TRACE|Sneakerx_api.Controllers.ServerController|************* User: test log in unsuccessfully with a wrong password! ************* 
+2019-04-16 12:52:13.5673||TRACE|Sneakerx_api.Controllers.ServerController|************* User: lws.19940712@gmail.com log in successfully *************! 
+2019-04-16 13:02:47.1832||TRACE|Sneakerx_api.Controllers.ServerController|************* User: lws.19940712@gmail.com log in successfully *************! 
+2019-04-16 13:02:48.6455||TRACE|Sneakerx_api.Controllers.ServerController|************* User: lws.19940712@gmail.com log in successfully *************! 
+2019-04-16 13:53:40.5535||TRACE|Sneakerx_api.Models.UserManager|Sample trace message 
+2019-04-16 13:53:40.6015||DEBUG|Sneakerx_api.Models.UserManager|Sample debug message 
+2019-04-16 13:53:40.6027||INFO|Sneakerx_api.Models.UserManager|Sample informational message 
+2019-04-16 13:53:40.6030||WARN|Sneakerx_api.Models.UserManager|Sample warning message 
+2019-04-16 13:53:40.6030||ERROR|Sneakerx_api.Models.UserManager|Sample error message 
+2019-04-16 13:53:40.6030||FATAL|Sneakerx_api.Models.UserManager|Sample fatal message 
+2019-04-16 13:53:40.6891||TRACE|Sneakerx_api.Controllers.ServerController|************* User: lws.19940712@gmail.com log in unsuccessfully with a wrong password! ************* 
+2019-04-16 13:54:17.5134||TRACE|Sneakerx_api.Controllers.ServerController|************* User: lws.19940712@gmail.com log in unsuccessfully with a wrong password! ************* 
+2019-04-16 13:54:28.5702||TRACE|Sneakerx_api.Controllers.ServerController|************* User: lws.19940712@gmail.com log in successfully *************! 
+2019-04-16 13:55:36.3562||TRACE|Sneakerx_api.Controllers.ServerController|************* User: lws.19940712@gmail.com log in successfully *************! 
+2019-04-16 14:00:05.8641||TRACE|Sneakerx_api.Controllers.ServerController|************* User: lws.19940712@gmail.com log in successfully *************! 
+2019-04-16 14:25:21.2380||TRACE|Sneakerx_api.Models.UserManager|Sample trace message 
+2019-04-16 14:25:21.2974||DEBUG|Sneakerx_api.Models.UserManager|Sample debug message 
+2019-04-16 14:25:21.2982||INFO|Sneakerx_api.Models.UserManager|Sample informational message 
+2019-04-16 14:25:21.2982||WARN|Sneakerx_api.Models.UserManager|Sample warning message 
+2019-04-16 14:25:21.2982||ERROR|Sneakerx_api.Models.UserManager|Sample error message 
+2019-04-16 14:25:21.2992||FATAL|Sneakerx_api.Models.UserManager|Sample fatal message 
+2019-04-16 14:25:21.4143||TRACE|Sneakerx_api.Controllers.ServerController| 

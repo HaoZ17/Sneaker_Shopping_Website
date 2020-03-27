@@ -1,0 +1,91 @@
+<div id="container">
+        <div id="head">
+            <div id="menu_header">
+                <span id="head_left" class="yellow">{{user.userName}}, here is your cart!</span>
+                <span id="head_right" class="yellow">Your balance is {{user.balance}}!</span>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div id="content">
+            <div class="login_box">
+                <ul id="nav_list">
+                    <li class="li_nav_body">
+                        <form >
+                            <input class="sidebar" type="hidden" name="userID" value={{user.userID}} >
+                            <input class="sidebar" type="submit" name="backHomepageBtn" value="Keep Shopping" (click)="toHome()"/>
+                            </form>
+                    </li>
+                    <li class="li_nav_body">
+                        <form>
+                            <input class="sidebar" (click)="logOut()" type="submit" name="LogoutBtn" value="Log out" />
+                        </form>
+                    </li>
+                    <li class="li_nav_body">
+                        <form >
+                            <input class="sidebar" type="submit" name="CrashBtn" value="Crash" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content_box_photo">
+                <div>
+                    <form >
+                        <input type="hidden" name="userID" value={{user.userID}}>
+                        <input type="submit" name="CheckOut" (click)="checkOut()" value="Check Out" style="font-size:13px" />
+                    </form>
+                    <br />
+                </div>
+                <div class="content">
+                    <table class="shoppingcart">
+                        <thead>
+                            <tr id="tablehead" style="text-align:center; font-size:9px">
+                                <th>
+                                    Item ID
+                                </th>
+                                <th>
+                                    Item Name
+                                </th>
+                                <th>
+                                    Item Size
+                                </th>
+                                <th>
+                                    Item Amount
+                                </th>
+                                <th>
+                                    Price
+                                </th>
+                                <th>
+                                    Remove one from this kind of shoes.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="tablerow"*ngFor="let cartInfo of cartInfos" >
+                                <td>
+                                    <input type="text" name="itemID" value={{cartInfo.itemID}} readonly="readonly" />
+                                </td>
+                                <td>
+                                    <input type="text" name="itemName" value="{{cartInfo.itemName}}" readonly="readonly" />
+                                </td>
+                                <td>
+                                    <input type="text" name="itemSize" value={{cartInfo.itemSize}} readonly="readonly" />
+                                </td>
+                                <td>
+                                    <input type="text" name="itemAmount" value={{cartInfo.itemInCartAmount}} readonly="readonly" />
+                                </td>
+                                <td>
+                                    <input type="text" name="price" value={{cartInfo.price}} readonly="readonly" />
+                                </td>
+                                <td>
+                                    <input type="hidden" name="userID" value={{user.userID}}>
+                                    <input type="submit" name="addItemToCart" value="Remove" (click)="move(cartInfo)" />
+                                </td>
+                            </tr>        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>

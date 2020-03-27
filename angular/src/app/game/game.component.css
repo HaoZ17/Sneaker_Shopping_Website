@@ -1,0 +1,120 @@
+#index {
+    background-color: #393939;
+  }
+  #content {
+    color: #fff;
+    height: 100%;
+    width: 40%;
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  #img {
+    height: 10%;
+    width: 10%;
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  #title {
+    text-align: center;
+    font-size: 60px;
+    font-family: Impact;
+  }
+  #button {
+    width: 100%;
+  }
+  button {
+    height: 50px;
+    width: 200px;
+    border: solid 2px #fff;
+    background: transparent;
+    color: #fff;
+  }
+  button:hover {
+    background-color: #fff;
+    color: #393939;
+    font-weight: bold;
+  }
+  textarea.sidebar {
+    border: solid 1px #ccc;
+    font: normal 10px tahoma;
+    width: 115px;
+    height: 80px;
+    color: #707070;
+    margin: 5px 0px 5px 25px;
+  }
+  input.sidebar {
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #ffd502;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-left: -7px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  input.button_sidebar {
+    border: solid 1px #ccc;
+    font: normal 10px tahoma;
+    width: 119px;
+    color: #707070;
+    margin: 0px 0px 5px 25px;
+  }
+  /* game .html */
+  #game {
+    background: url('https://zuodahao.neocities.org/background.jpg');
+  }
+  #backside {
+    height: 10%;
+    width: 100%;
+    background-color: #393939;
+    opacity: 0.8;
+    text-align: center;
+  }
+  #head {
+    height: 35%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    letter-spacing: 10px;
+  }
+  #head img {
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    max-height: 20%;
+    float: left;
+  }
+  .center {
+    text-align: center;
+  }
+  #instruction {
+    line-height: 0.5;
+    width: 80%;
+    color: #fff;
+    height: 60%;
+    MARGIN-RIGHT: auto;
+    MARGIN-LEFT: auto;
+  }
+  p {
+    font-size: 15px;
+  }
+  p.title {
+    font-size: 25px;
+  }
+  #inline {
+    width: 80%;
+    border-bottom: 3px solid #fff;
+    MARGIN-RIGHT: auto;
+    MARGIN-LEFT: auto;
+  }
+  canvas {
+    opacity: 0.8;
+  }
+  

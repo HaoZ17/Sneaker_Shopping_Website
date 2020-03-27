@@ -1,0 +1,73 @@
+
+<div id="container">
+  <div id="head">
+      <div id="menu_header">
+          <span id="head_left" class="yellow">Welcome!</span>
+          <span id="head_right" class="yellow"></span> 
+      </div>
+  </div>
+  <br />
+  <br />
+  <div id="content">
+      <div class="login_box">
+          <ul id="nav_list">
+              <li class="li_nav_body">
+                      <input class="sidebar" type="hidden" name="userID" value=@ViewBag.User.userID>
+                      <input class="sidebar" type="submit" (click)="toHome()" name="backHomepageBtn" value="Keep Shopping" />
+              </li>
+              <li class="li_nav_body">
+                    <input class="sidebar" type="submit" (click)="logOut()" name="LogoutBtn" value="Log out" />
+              </li>
+              <li class="li_nav_body">
+                    <input class="sidebar" type="submit" (click)="crash()" name="CrashBtn" value="Crash" />
+              </li>
+          </ul>
+      </div> 
+
+      <div class="content_box_photo">
+          <h3 class="yellow">Hi, these are the details of Order: {{details[0].orderID}} </h3>
+          <div class="content">
+              <table class="shoppingcart">
+                  <thead>
+                      <tr id="tablehead" style="text-align:center; font-size:9px">
+                          <th>
+                              Item ID
+                          </th>
+                          <th>
+                              Item Name
+                          </th>
+                          <th>
+                              Item Size
+                          </th>
+                          <th>
+                              Item Amonut
+                          </th>
+                          <th>
+                              Item Prive
+                          </th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr id="tablerow" style="text-align: center;" *ngFor="let order of details">
+                          <td>
+                              {{order.itemID}}
+                          </td>
+                          <td>
+                              {{order.itemName}}
+                          </td>
+                          <td>
+                              {{order.itemSize}}
+                          </td>
+                          <td>
+                              {{order.itemBought}}
+                          </td>
+                          <td>
+                              {{order.itemPrice}}
+                          </td>
+                      </tr>     
+                  </tbody>
+              </table>
+          </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,67 @@
+2019-04-15 20:19:09.9694|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-15 20:19:10.0554|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-15 20:19:10.0589|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-15 20:19:10.0589|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-15 20:19:10.0598|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-15 20:19:10.0598|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-15 20:19:10.1962|TRACE|Sneakerx_api.Controllers.ServerController| |url: |action: 
+2019-04-15 20:20:36.3275|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 20:26:49.9027|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 20:27:38.1086|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 20:28:13.0597|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 20:28:13.4169|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 20:28:20.8201|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 20:32:30.7278|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-15 20:32:30.7744|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-15 20:32:30.7752|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-15 20:32:30.7752|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-15 20:32:30.7757|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-15 20:32:30.7757|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-15 20:32:30.8658|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 20:32:39.3596|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 20:33:32.1142|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 21:55:11.2737|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-15 21:55:11.3210|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-15 21:55:11.3218|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-15 21:55:11.3218|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-15 21:55:11.3223|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-15 21:55:11.3223|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-15 21:55:11.4195|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 21:55:55.0378|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 21:56:41.2386|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-15 21:56:41.2850|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-15 21:56:41.2859|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-15 21:56:41.2862|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-15 21:56:41.2862|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-15 21:56:41.2862|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-15 21:56:41.3707|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 22:00:25.8041|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-15 22:00:25.8505|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-15 22:00:25.8513|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-15 22:00:25.8513|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-15 22:00:25.8513|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-15 22:00:25.8522|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-15 22:00:25.9579|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 22:03:24.9461|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-15 22:03:24.9925|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-15 22:03:24.9925|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-15 22:03:24.9935|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-15 22:03:24.9935|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-15 22:03:24.9935|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-15 22:03:25.0804|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 22:03:35.8136|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 22:05:16.3655|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-15 22:05:16.4120|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-15 22:05:16.4129|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-15 22:05:16.4129|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-15 22:05:16.4129|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-15 22:05:16.4129|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-15 22:05:16.5064|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 22:05:25.4127|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 
+2019-04-15 22:27:42.1691|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-15 22:27:42.2156|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-15 22:27:42.2165|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-15 22:27:42.2168|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-15 22:27:42.2168|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-15 22:27:42.2168|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-15 22:27:42.3016|TRACE|Sneakerx_api.Controllers.ServerController|************* User: 1 does not exist! ************* |url: |action: 

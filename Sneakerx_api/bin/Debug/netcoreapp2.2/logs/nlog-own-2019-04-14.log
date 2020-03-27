@@ -1,0 +1,8 @@
+2019-04-14 22:24:15.6786|TRACE|Sneakerx_api.Models.UserManager|Sample trace message |url: |action: 
+2019-04-14 22:24:15.7413|DEBUG|Sneakerx_api.Models.UserManager|Sample debug message |url: |action: 
+2019-04-14 22:24:15.7434|INFO|Sneakerx_api.Models.UserManager|Sample informational message |url: |action: 
+2019-04-14 22:24:15.7437|WARN|Sneakerx_api.Models.UserManager|Sample warning message |url: |action: 
+2019-04-14 22:24:15.7437|ERROR|Sneakerx_api.Models.UserManager|Sample error message |url: |action: 
+2019-04-14 22:24:15.7437|FATAL|Sneakerx_api.Models.UserManager|Sample fatal message |url: |action: 
+2019-04-14 22:24:15.8226|TRACE|Sneakerx_api.Controllers.ServerController| |url: |action: 
+2019-04-14 22:24:16.4527|TRACE|Sneakerx_api.Controllers.ServerController| |url: |action: 

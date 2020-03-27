@@ -1,0 +1,92 @@
+<div id="container">
+        <div id="head">
+            <div id="menu_header">
+                <span id="head_left" class="yellow">Welcome! {{user.userName}}</span>
+                <span id="head_right" class="yellow">Your balance is {{user.balance}}</span>
+            </div>
+        </div>
+        <br/>
+
+
+        <div id="content">
+            <div class="login_box">
+                <ul id="nav_list">
+                    <li class="li_nav_body">
+                        <form>
+                            <input class="sidebar" type="hidden"  value={{user.userID}} name="userID" >
+                            <input class="sidebar" type="submit" name="backHomepageBtn" value="Keep Shopping" (click)="toHome()"/>
+                        </form>
+                    </li>
+                    <li class="li_nav_body">
+                        <form >
+                            <input class="sidebar" type="submit" (click)="crash()" name="CrashBtn" value="Crash" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content_box_photo">
+                <div style="float: auto;">
+                <h3 class="yellow">You can update your password below!</h3>
+                <br />
+                <br />
+                <div>
+                    <form>
+                        <div>
+                            <input type="text" name="pwd_1" [(ngModel)]="pwd1" placeholder="Please tpye in your new password here"/>
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="pwd_2" [(ngModel)]="pwd2" placeholder="Please re-tpye in your new password here"/>
+                        </div>
+                        <br />
+                        <br />
+                        <div>
+                            <input type="submit" name="updatePWD" (click)="isSame()" value="Reset Password" style="width:100px;"/>
+                        </div>
+                        <br />
+                    </form>
+                    
+                </div>
+                </div>
+
+                <div style="overflow: auto;">
+                    <h3 class="yellow">Add your credit card here!</h3>
+                    <br />
+                    <br />
+                    <form>
+                        <div>
+                            <input type="hidden" name="userID" value={{user.userID}} />
+                            <input type="text" name="cardNo" placeholder="Card Number" [(ngModel)]="cardNo">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="cardPwd" placeholder="Card Password" [(ngModel)]="cardPwd">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="cardName" placeholder="Card Holder" [(ngModel)]="cardName">
+                        </div>
+                        <br />
+                        <div> 
+                            <input type="text" name="cardMonth" placeholder="Expired Month" [(ngModel)]="cardMonth" style="width:124px">/<input type="text" name="cardYear" placeholder="Expired Year" [(ngModel)]="cardYear" style="width:124px">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="cardCvc" placeholder="Card Security Number" [(ngModel)]="cardCvc">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="chargeAmount" placeholder="Balance you want to add" [(ngModel)]="chargeAmount">
+                        </div>
+                        <br />
+                        <br />
+                        <div>
+                            <input type="submit" name="chargeBtn" value="Add Balance by Bank Card" (click)="updateBalance()" style="width:100px;"/>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>

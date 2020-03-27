@@ -1,0 +1,66 @@
+<div id="container">
+        <div id="head">
+            <div id="menu_header">
+                <span id="head_left" class="yellow">Welcome!</span>
+                <span id="head_right" class="yellow"></span>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div id="content">
+            <div class="login_box">
+                <ul id="nav_list">
+                    <li class="li_nav_body">
+                        <form>
+                            <input class="sidebar" type="submit" (click)="crash()" name="CrashBtn" value="Crash" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content_box_photo">
+                <h3 class="yellow">Hi, you should register here first!</h3>
+                <div>
+                    <form>
+                        <div>
+                          <input type="text" name="userName" [(ngModel)]="userName" placeholder="User Name" class="enter">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="emailAddress" [(ngModel)]="emailAddress" placeholder="Email Address" class="enter">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="password" name="pwd" [(ngModel)]="pwd" placeholder="Password" class="enter">
+                        </div>
+                        <br />
+                        <div> 
+                            <input type="text" name="balance" [(ngModel)]="balance" placeholder="Balance" class="enter">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="shippingAddress" [(ngModel)]="shippingAddress" placeholder="Shipping Address" class="enter">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="phoneNo" [(ngModel)]="phoneNo" placeholder="Phone Number" class="enter">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="zipCode" [(ngModel)]="zipCode" placeholder="Zip Code" class="enter">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="text" name="country" [(ngModel)]="country" placeholder="Country" class="enter">
+                        </div>
+                        <br />
+                        <br>
+                        <div >
+                            <input type="submit" name="registerBtn" (click)="regist()" value="Register" style="width:150px" class="enter"/>                          
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>

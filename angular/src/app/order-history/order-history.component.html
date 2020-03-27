@@ -1,0 +1,72 @@
+<div id="container">
+  <div id="head">
+      <div id="menu_header">
+          <span id="head_left" class="yellow">Welcome! {{user.userName}}</span>
+          <span id="head_right" class="yellow">Your balance is {{user.balance}}!</span>
+      </div>
+  </div>
+  <br />
+  <br />
+  <div id="content">
+      <div class="login_box">
+          <ul id="nav_list">
+              <li class="li_nav_body">
+              <input class="sidebar" type="hidden" name="userID" value={{user.userID}}>
+              <input class="sidebar" type="submit" (click)="toHome()" name="backHomepageBtn" value="Keep Shopping" />
+              </li>
+              <li class="li_nav_body">
+                  <form asp-action="LoginPage" asp-controller="Client" method="get">
+                      <input class="sidebar" (click)="logOut()" type="submit" name="LogoutBtn" value="Log out" />
+                  </form>
+              </li>
+              <li class="li_nav_body">
+                  <input class="sidebar" type="submit" (click)="crash()" name="CrashBtn" value="Crash" />
+              </li>
+          </ul>
+      </div> 
+
+      <div class="content_box_photo">
+          <div>
+              <br />
+          </div>
+          <div class="content">
+              <h3 class="yellow">Hi, {{user.userName}}, here is all your order history!</h3>
+              <table class="shoppingcart">
+                  <thead>
+                      <tr id="tablehead" style="text-align:center; font-size:9px">
+                          <th>
+                              Order ID
+                          </th>
+                          <th>
+                              Order Date
+                          </th>
+                          <th>
+                              Order Cost
+                          </th>
+                          <th></th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    
+                      <tr id="tablerow" *ngFor="let order of vieworders">
+                        <td>
+                              <input style="text-align:center;" type="text" name="orderID" value={{order.orderID}} readonly="readonly" />
+                          </td>
+                          <td>
+                              <input style="text-align:center;" type="text" name="orderDate" value={{order.orderDate}} readonly="readonly" />
+                          </td>
+                          <td>
+                              <input style="text-align:center;" type="text" name="totalCost" value={{order.totalCost}} readonly="readonly" />
+                          </td>
+                          <td>
+                              <button type="submit" (click)="viewdetails(order)" name="viewdetailsBtn" style="width:150px;text-align:center;" class="enter">View This Order Details</button>
+                          </td>
+                         </tr>
+                  
+                  </tbody>
+              </table>
+          </div>
+      </div>
+  </div>
+</div>
+

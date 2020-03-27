@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alex/Desktop/ZH课程/Info6250/6250final project/Sneakerx_api/Sneakerx_api.csproj": {}
+  },
+  "projects": {
+    "/Users/alex/Desktop/ZH课程/Info6250/6250final project/Sneakerx_api/Sneakerx_api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alex/Desktop/ZH课程/Info6250/6250final project/Sneakerx_api/Sneakerx_api.csproj",
+        "projectName": "Sneakerx_api",
+        "projectPath": "/Users/alex/Desktop/ZH课程/Info6250/6250final project/Sneakerx_api/Sneakerx_api.csproj",
+        "packagesPath": "/Users/alex/.nuget/packages/",
+        "outputPath": "/Users/alex/Desktop/ZH课程/Info6250/6250final project/Sneakerx_api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/alex/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.5.11, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.5.11, )"
+            },
+            "NLog.Web": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

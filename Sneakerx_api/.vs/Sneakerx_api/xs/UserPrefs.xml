@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{CD620477-2829-4B66-89A7-F84742E308D2}|location_change">
+  <MonoDevelop.Ide.ItemProperties.Sneakerx__api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/CardManager.cs">
+    <Files>
+      <File FileName="Controllers/ServerController.cs" Line="45" Column="35" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="../../../../../.nuget/packages/nlog.config/4.5.11/contentFiles/any/any/NLog.config" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="logs/internal-nlog.txt" Line="1" Column="1" />
+      <File FileName="Models/CardInfo.cs" Line="1" Column="1" />
+      <File FileName="Models/CardManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sneakerx_api" expanded="True">
+            <Node name="Sneakerx_api" expanded="True">
+              <Node name="logs" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="CardManager.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True">
+                <Node name="PublishProfiles" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

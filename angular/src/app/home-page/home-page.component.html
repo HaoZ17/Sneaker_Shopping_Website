@@ -1,0 +1,119 @@
+<div id="container">
+  <div id="head">
+    <div id="menu_header">
+      <span id="head_left" class="yellow">Welcome! {{user.userName}}</span>
+      <span id="head_right" class="yellow">Your balance is {{user.balance}}</span>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div id="content">
+    <div class="login_box">
+      <ul id="nav_list">
+        <li class="li_nav_body">
+          <input class="sidebar" type="hidden" name="userID" value = {{user.userID}}>
+          <input class="sidebar" type="submit" name="backHomepageBtn" value="Keep Shopping" (click)="toHome()"/>
+        </li>
+        <li class="li_nav_body">
+          <input class="sidebar" type="submit" (click)="logOut()" name="LogoutBtn" value="Log out" />
+        </li>
+        <li class="li_nav_body">
+          <input class="sidebar" type="submit" (click)="crash()"name="CrashBtn" value="Crash" />
+        </li>
+      </ul>
+    </div>
+
+    <div class="content_box_photo">
+      <div>
+        <input type="hidden" name="user" value={{user}}/>
+        <input type="submit" name="ViewUserInfo" (click)="toPersonInfo()" value="View Personal Infomation" style="font-size:13px"/>
+        
+        <br />
+        <input type="hidden" name="userID" value= {{user.userID}}/>
+        <input type="submit" name="ViewCartBtn" (click)="toCart()" value="View My Cart" style="font-size:13px" />
+        
+        <br />
+        <input type="hidden" name="userID" value={{user.userID}}/>
+        <input type="submit" name="ViewOrderHistoryBtn" (click)="toHistory()" value="View Order History" style="font-size:13px" />
+        
+        <br />
+        <br />
+        <br />
+      </div>
+      <div class="content">
+        <ul class="hoverbox">
+          <div class="item">
+            <div id="item_content">
+              <table id="cartitem" *ngFor="let item of items">
+                <tr id="tablerow">
+                  <th colspan="2">
+                    <input type="hidden" name="picLink" value={{item.picLink}}/>
+                    <img  src="{{item.picLink}}" />
+                  </th>
+                </tr>
+                <tr id="tablerow">
+                  <td>
+                    <p class="yellow">ID:</p>
+                  </td>
+                  <td>
+                    <input type="text" name="itemID" readonly="readonly" value={{item.itemID}}/>
+                  </td>
+                </tr>
+                <tr id="tablerow">
+                  <td>
+                    <p class="yellow">Name:</p>
+                  </td>
+                  <td>
+                    <input type="text" name="itemName" readonly="readonly" value={{item.itemName}}/>
+                  </td>
+                </tr>
+                <tr id="tablerow">
+                  <td>
+                    <p>Size:</p>
+                  </td>
+                  <td>
+                    <input type="text" name="itemSize"  readonly="readonly" value={{item.itemSize}}/>
+                  </td>
+                </tr>
+                <tr id="tablerow">
+                  <td>
+                    <p>Amount:</p>
+                  </td>
+                  <td><input type="text" name="itemAmount"  readonly="readonly" value={{item.itemAmount}}/></td>
+                </tr>
+                <tr id="tablerow">
+                  <td>
+                    <p>Price:</p>
+                  </td>
+                  <td>
+                    <input type="text" name="price"  readonly="readonly" value={{item.price}}/>
+                  </td>
+                </tr>
+                <tr id="tablerow">
+                  <td>
+                    <p>Description:</p>
+                  </td>
+                  <td>
+                    <input type="text" name="description" readonly="readonly" value={{item.description}}/>
+                  </td>
+                </tr>
+                <tr id="tablerow">
+                  <td>
+                    <p><i class="fas fa-plus-circle"></i></p>
+                  </td>
+                  <td colspan="2" class="addbtn">
+                    <input type="hidden" name="userID" value={{user.userID}} />
+                    <button type="submit" name="addItemToCart" (click)="addCart(item)" class="addbtn" > Add to Cart</button>
+                    <br />
+                    <br />
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </ul>
+      </div>   
+    </div>
+  </div>
+</div>
+

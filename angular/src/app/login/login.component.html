@@ -1,0 +1,51 @@
+<p>Sneker Shopping Website</p>
+<h3 *ngIf="user">{{user.userName}}</h3>
+<div id="container">
+  <div id="head">
+      <div id="menu_header">
+          <span id="head_left" class="yellow">Welcome!</span>
+          <span id="head_right" class="yellow"></span>
+      </div>
+  </div>
+  <br />
+  <br />
+  <div id="content">
+      <div class="login_box">
+          <ul id="nav_list">
+              <li class="li_nav_body">
+                  <form asp-controller="Client" asp-action="Crash" method="get">
+                      <input class="sidebar" type="submit" name="CrashBtn" (click)="crash()" value="Crash" />
+                  </form>
+              </li>
+          </ul>
+      </div>
+      <div class="content_box_photo">
+          <h3 class="yellow">Login</h3>
+          <div>
+              <form [formGroup]="loginInfoForm" class="form">
+                  <br />
+                  <br />
+                  <div>
+                      <input type="text" formControlName="emailAddress" name="emailAddress" placeholder="EmailAddress" class="enter" />
+                  </div>
+                  <br />
+                  <br />
+                  <div>
+                      <input type="password" formControlName="password" name="password" placeholder="Password" class="enter" />
+                  </div>
+                  <br />
+                  <br />
+                  <br />
+                  <div>
+                      <button type="submit" (click)="onLogin()" name="loginBtn" style="width:150px" class="enter">Log In</button>
+                  </div>
+                  <div>
+                      <button type="submit" (click)="register()" name="loginBtn" style="width:150px" class="enter">Register</button>
+                  </div>     
+              </form>
+              
+          </div>
+      </div>
+  </div>
+  
+</div>
