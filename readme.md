@@ -1,3 +1,9 @@
+## Architecture Description
+<img src = "pic/pic2.png" width="1000" text-align: center>
+
+## Work Flow
+<img src = "pic/pic1.png" width="1000" text-align: center>
+
 ## Front-End Deployment in AWS (Angular)
 - In angular folder, type “ng build --prod ” which will output some configuration files in ‘dist’ folder on terminal.
 - Open AWS website, Search S3(Amazon simple storage service), Build a bucket which is edited public access.
