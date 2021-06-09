@@ -18,4 +18,4 @@
 - ‘ng build’ angular project.
 
 ## Back-End Deployment in Azure (ASP.NET core)
-- Use “publish to Azure” to publish it to your account link: http://6250finalprojectangular.s3-website-us-east-1.amazonaws.com/
+- Use “publish to Azure” to publish it
